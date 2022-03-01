@@ -1,9 +1,13 @@
 [package]
 name = "pi_rsync"
 version = "0.1.0"
-authors = ["suncy <suncy@gmail.com>"]
-edition = "2018"
+authors = ["suncy <530739162@qq.com>"]
+edition = "2021"
+description = "Data synchronization can calculate the difference of data and construct new data according to the difference and old data"
+repository = "https://github.com/GaiaWorld/pi_rsync.git"
+license = "MIT OR Apache-2.0"
+keywords = ["pi", "rsync", "pi_rsync"]
 
 [dependencies]
 crc = "1.8.1"
-adler32 = "*"
+adler32 = "1.2"
